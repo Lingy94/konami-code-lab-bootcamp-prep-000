@@ -21,7 +21,7 @@ function init() {
       if (key == codes[i]) {
         if (i === codes.length){
         alert("Konami Code!");
-        konamiCodePos = 0;
+        i = 0;
         }
       }
       else {
