@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
 
-  document.addEventListener('keydown', function(e) { 
+  document.body.addEventListener('keydown', function(e) { 
     const key = e.key;
     for (i = 0; i < codes.length; i++) {
       if (key == codes[i]) {
