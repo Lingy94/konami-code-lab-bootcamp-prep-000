@@ -19,8 +19,7 @@ function init() {
     const key = e.key;
     for (i = 0; i < codes.length; i++) {
       if (key == codes[i]) {
-        konamiCodePos++;
-        if (konamiCodePos === codes.length){
+        if (i === codes.length){
         alert("Konami Code!");
         konamiCodePos = 0;
         }
