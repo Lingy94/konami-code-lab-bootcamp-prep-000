@@ -11,8 +11,6 @@ const codes = [
   "a"
 ];
 
-var konamiCodePos = 0;
-
 function init() {
 
   document.addEventListener('keydown', function(e) { 
@@ -25,7 +23,7 @@ function init() {
         }
       }
       else {
-        konamiCodePos = 0;
+        i = 0;
       }
       }
     }
