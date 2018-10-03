@@ -27,7 +27,7 @@ function init() {
       }
     } else {
       i = 0;
-      console.log("block 4")
+      console.log("Wrong Key")
     }
   });
 }
