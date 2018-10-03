@@ -21,7 +21,7 @@ var i = 0;
     if (key === codes[i]) {
       i++;
       console.log("Correct Code")
-      if (i === codes.length-1){
+      if (i === codes.length){
         alert("Konami Code!");
         i = 0;
         console.log("block 3")
