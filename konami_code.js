@@ -19,15 +19,13 @@ function init() {
       if (key === codes[i]) {
         i++;
         if (i === codes.length){
-        alert("Konami Code!");
-        i = 0;
+          alert("Konami Code!");
+          i = 0;
         }
-      }
-      else {
+      } else {
         i = 0;
       }
-    }
-    );
+    });
 }
 
 init()
