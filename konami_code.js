@@ -19,7 +19,7 @@ function init() {
     console.log("block 1")
     if (key === codes[i]) {
       i++;
-      console.log("block 2")
+      console.log("Correct Code")
       if (i === codes.length){
         alert("Konami Code!");
         i = 0;
